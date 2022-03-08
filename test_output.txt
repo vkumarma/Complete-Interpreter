@@ -1,0 +1,29 @@
+Tokens: 
+
+while:KEYWORD
+10:NUMBER
+do:KEYWORD
+x:IDENTIFIER
+:=:SYMBOL
+7:NUMBER
+/:SYMBOL
+(:SYMBOL
+7:NUMBER
+-:SYMBOL
+7:NUMBER
+):SYMBOL
+endwhile:KEYWORD
+
+AST: 
+
+while:KEYWORD
+         10:NUMBER
+         :=:SYMBOL
+                  x:IDENTIFIER
+                  /:SYMBOL
+                           7:NUMBER
+                           -:SYMBOL
+                                    7:NUMBER
+                                    7:NUMBER
+
+Division by Zero not allowed
